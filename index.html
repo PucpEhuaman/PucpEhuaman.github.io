@@ -15,9 +15,12 @@
 
         <div class="main-chat">
             <div class="chat-header">
-                <h2>Sabueso Digital</h2>
-                <p>Asistente Virtual</p>
-            </div>
+			<h2>
+				<img src="sabueso.png" alt="Logo Sabueso" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+				Sabueso Digital
+			</h2>
+			<p>Asistente Virtual</p>
+		</div>
 
             <div class="chat-messages" id="chat-messages">
                 <div class="message bot-message">
@@ -194,7 +197,7 @@
                 paymentDiv.className = 'message bot-message';
                 paymentDiv.innerHTML = `
                     Por favor, realiza el pago escaneando el siguiente código QR para continuar.<br>
-                    <img src="sabueso.png" alt="Código QR" class="qr-image" style="display: block; margin: 10px auto;">
+                    <img src="QR.png" alt="Código QR" class="qr-image" style="display: block; margin: 10px auto;">
                 `;
                 messages.appendChild(paymentDiv);
                 messages.scrollTop = messages.scrollHeight;
